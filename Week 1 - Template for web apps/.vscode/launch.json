@@ -14,6 +14,7 @@
             "program": "${workspaceFolder}/web-app/server.js"
         },
         {
+<<<<<<< HEAD
             "version": "0.2.0",
             "configurations": [
               {
@@ -28,6 +29,18 @@
                 }
               }
             ]
+=======
+            "name": "fx-dev debug",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "reloadOnAttach": true,
+            "url": "http://localhost:8080/index.html",
+            "webRoot": "${workspaceFolder}/web-app/static",
+            "preferences": {
+              "security.fileuri.strict_origin_policy": false
+            }
+>>>>>>> c1c272a56a731c61a0cbe6be90a1c73947c6e8d4
           }
     ]
 }
